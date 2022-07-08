@@ -51,18 +51,12 @@ function rgbColor() {
   for (let index = 0; index < allColors.length; index += 1) {
     allColors[index].addEventListener('click', function (event) {
       if (event.target.attributes[1].value === pegarDiv) {
-        escolher.innerText = "Acertou!"
+        escolher.innerText = 'Acertou!';
       } else {
-        escolher.innerText = "Errou! Tente novamente!"
+        escolher.innerText = 'Errou! Tente novamente!';
       }
     });
   }
 }
 
 rgbColor();
-
-function pegar() {
-  const allColors = document.getElementsByClassName('ball');
-}
-
-pegar();
