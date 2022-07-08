@@ -38,3 +38,31 @@ function colorAleatorias() {
 }
 
 colorAleatorias();
+
+function rgbColor() {
+  const colorRGB = document.getElementById('rgb-color');
+  const allColors = document.getElementsByClassName('ball');
+  const escolher = document.getElementById('answer');
+  const min = Math.ceil(0);
+  const max = Math.floor(5);
+  const aleatorio = Math.floor(Math.random() * (max - min)) + min;
+  const pegarDiv = allColors[aleatorio].attributes[1].value;
+  colorRGB.innerText = pegarDiv;
+  for (let index = 0; index < allColors.length; index += 1) {
+    allColors[index].addEventListener('click', function (event) {
+      if (event.target.attributes[1].value === pegarDiv) {
+        escolher.innerText = "Acertou!"
+      } else {
+        escolher.innerText = "Errou! Tente novamente!"
+      }
+    });
+  }
+}
+
+rgbColor();
+
+function pegar() {
+  const allColors = document.getElementsByClassName('ball');
+}
+
+pegar();
