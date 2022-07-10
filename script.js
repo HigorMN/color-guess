@@ -60,3 +60,15 @@ function rgbColor() {
 }
 
 rgbColor();
+
+function reset() {
+  const escolher = document.getElementById('answer');
+  const btnReset = document.getElementById('reset-game');
+  btnReset.addEventListener('click', function () {
+    colorAleatorias();
+    rgbColor();
+    escolher.innerText = 'Escolha uma cor';
+  });
+}
+
+reset();
