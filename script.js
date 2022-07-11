@@ -72,3 +72,20 @@ function reset() {
 }
 
 reset();
+
+function scor() {
+  const colorRGB = document.getElementById('rgb-color');
+  const score = document.getElementById('score');
+  const allColors = document.getElementsByClassName('ball');
+  let contador = 0;
+
+  for (let index = 0; index < allColors.length; index += 1) {
+    allColors[index].addEventListener('click', function (event) {
+      if (event.target.attributes[1].value === colorRGB.innerText) {
+        contador += 3;
+        score.innerText = contador;
+      }
+    });
+  }
+}
+scor();

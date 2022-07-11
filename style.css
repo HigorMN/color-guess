@@ -11,3 +11,12 @@ body {
   margin: 5px;
   display: inline-block;
 }
+
+#flec {
+  display: flex;
+  justify-content: center;
+}
+
+#flec p {
+  margin-left: 20px;
+}
