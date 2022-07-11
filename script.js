@@ -84,6 +84,7 @@ function scor() {
       if (event.target.attributes[1].value === colorRGB.innerText) {
         contador += 3;
         score.innerText = contador;
+        score.style.color = 'red';
       }
     });
   }
