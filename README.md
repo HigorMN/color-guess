@@ -1,10 +1,19 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h1 align="center">Projeto - Adivinhe a cor</h1>
+
+  <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
+
+- Uma aplicação utilizando JavaScript, HTML5 e CSS3.
+
+- Nesta aplicação é possível jogar um jogo de adivinhação de cores onde:
+  - Dentro de uma possibilidade de cores o jogador deverá tentar adivinhar qual cor foi aleatoriamente selecionada como a cor certa;
+  - A paleta de cores deve ser apresentada por círculos coloridos;
+  - Deverá existir um botão para iniciar e reiniciar o jogo;
+  - Ao selecionar uma cor um texto deverá informar se você acertou ou não a cor correta.
+
+<p align="center">
+  <img
+    class="rounded mx-auto d-block"
+    src="./guess-the-color.gif"
+    alt="Gif exibindo um jogo de adivinhar a cor"
+  >
+</p>
